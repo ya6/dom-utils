@@ -1,0 +1,26 @@
+{
+  "name": "@ya6/dom-utils",
+  "version": "0.0.1",
+  "description": "This package provides utility functions for manipulating the DOM, including adding both elements and arrays of elements, removing elements, cleaning an element by removing its children, and more. To optimize performance, DocumentFragment is utilized. Simplify your DOM manipulation tasks with these efficient and versatile functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ya6/dom-utils.git"
+  },
+  "keywords": [
+    "dom-utils"
+  ],
+  "author": {
+    "name": "Alex Yakubowski",
+    "email": "stockupby@gmail.com",
+    "url": "https://dev.yakubowski.pl"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ya6/dom-utils/issues"
+  },
+  "homepage": "https://github.com/ya6/dom-utils#readme"
+}

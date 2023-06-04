@@ -1,0 +1,1 @@
+# dom-utils ![GitHub](https://img.shields.io/github/license/ya6/dom-utils)
