@@ -59,14 +59,3 @@ const removeElementsBySelector = (selector) => {
 const removeAllChildren = (elementToClear) => {
   elementToClear.innerHTML = "";
 };
-
-module.exports = {
-  appendToDOM,
-  appendFromStrToDOM,
-  prependStrToDOM,
-  removeElement,
-  removeElementsBySelector,
-  removeAllChildren,
-  isEmpty,
-  isHTMLElement,
-};

@@ -60,7 +60,7 @@ const removeAllChildren = (elementToClear) => {
   elementToClear.innerHTML = "";
 };
 
-module.exports = {
+export  {
   appendToDOM,
   appendFromStrToDOM,
   prependStrToDOM,

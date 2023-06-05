@@ -2,7 +2,7 @@
 
 ## Description
 This package provides utility functions for manipulating the DOM, including adding both elements and arrays of elements, removing elements, cleaning an element from its children, and more.
-DocumentFragment is used for performance
+DocumentFragment is used for performance.
 
 ## Install
 ```
@@ -13,26 +13,97 @@ yarn add @ya6/dom-utils
 ```
 ## Usage
 ```
-
-
+import { appendToDOM } from '@ya6/dom-utils'
 ```
+or
+```
+const { appendToDOM } = require('@ya6/dom-utils')
+```
+use dom-utils.js for HTML file
+```
+<script src="dom-utils.js></script>
+```
+## Functions
+
+### appendToDOM(element, container_element)
+	Adds an element or an array of elements to a container element at the end.
+	Strings are inserted as text content.
+
+	Parameters
+  	- element (string | HTMLElement | HTMLElement[])
+	- container_element (HTMLElement)
+
+	Returns
+	- void
 
 
+### appendFromStrToDOM(string_content, container_element)
+	Appends an HTML string or a string of text as an element to a container in the DOM.
 
-`appendToDOM`: Adds an element or an array of elements to a container element at the end. Strings are inserted as text content.
+	Parameters
+	- string_content (string)
+	- container_element (HTMLElement)
 
-appendFromStrToDOM: Appends an HTML string or a string of text as an element to a container in the DOM.
-
-prependStrToDOM: Prepends an HTML string or a string of text as an element to the beginning of a container in the DOM.
-
-removeElement: Removes a specified element from the DOM.
-
-removeElements: Removes all specified elements from the DOM.
-
-removeAllChildren: Removes all the child elements of a specified element from the DOM.
+	Returns
+	- void
 
 
-throwIfNotHTMLElement: a helper that throws an exception if the argument is not an HTML element.
+### prependStrToDOM(string_content, container_element)
+	Prepends an HTML string or a string of text as an element to the beginning of a container in the DOM.
+
+	Parameters
+	- string_content (string)
+	- container_element (HTMLElement)
+
+	Returns
+	- void
+
+
+### removeElement(target_element)
+	Removes a specified element from the DOM.
+
+	Parameters
+	- target_element (HTMLElement)
+
+	Returns
+	- void
+### removeElementsBySelector(selector)
+	Removes all elements by selector from the DOM.
+
+	Parameters
+	- selector (string) - '.my-class'
+
+	Returns
+	- void
+
+
+### removeAllChildren(target_element)
+	Removes all the child elements of a specified element from the DOM.
+
+	Parameters
+	- target_element (HTMLElement)
+
+	Returns
+	- void
+
+### isEmpty(arg)
+	A helper that checks whether an element is empty or has content,
+	empty arrays and objects are considered empty.
+
+	Parameters
+	- arg (any | any[])
+
+	Returns
+	- true | false
+
+### isHTMLElement(arg)
+	A helper that checks if the argument is a HTML element.
+
+	Parameters
+	- arg (any)
+
+	Returns
+	- true | false
 
 
 
