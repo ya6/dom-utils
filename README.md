@@ -1,4 +1,4 @@
-# dom-utils ![GitHub](https://img.shields.io/github/license/ya6/dom-utils)
+# dom-utils ![npm](https://img.shields.io/npm/v/@ya6/dom-utils) ![GitHub](https://img.shields.io/github/license/ya6/dom-utils)
 
 ## Description
 This package provides utility functions for manipulating the DOM, including adding both elements and arrays of elements, removing elements, cleaning an element from its children, and more.
@@ -105,7 +105,11 @@ use dom-utils.js for HTML file
 	Returns
 	- true | false
 
+## Changelog
 
+#### [1.0.1] - 2023-06-06
+
+Added types declaration file (`index.d.ts`)
 
 ## Bug Reports and Feature Requests
 

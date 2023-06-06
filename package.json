@@ -1,6 +1,6 @@
 {
   "name": "@ya6/dom-utils",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "This package provides utility functions for manipulating the DOM, including adding both elements and arrays of elements, removing elements, cleaning an element by removing its children, and more. To optimize performance, DocumentFragment is utilized. Simplify your DOM manipulation tasks with these efficient and versatile functions.",
   "main": "index.js",
   "scripts": {
